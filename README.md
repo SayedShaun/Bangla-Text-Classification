@@ -1,4 +1,3 @@
----
 # Bangla Text Classification using PyTorch
 
 This repository contains code for a text classification project tailored to analyze Bangla language text.
@@ -19,5 +18,3 @@ This repository contains code for a text classification project tailored to anal
 This codebase is designed for efficient Bangla text analysis and classification.
 
 Feel free to contribute or adapt this code for your Bangla text analysis tasks.
-
----
