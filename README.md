@@ -15,5 +15,5 @@ This repository contains code for a text classification project to analyze Bangl
 - Define and modify the text classification model in `model.py` according to your Bangla text analysis requirements.
 - Use `training.py` to train the text classifier.
 
-__
+---
 Feel free to contribute or adapt this code for your Bangla text analysis tasks.
