@@ -3,6 +3,7 @@ from model import MyModel
 from torch.utils.data import DataLoader
 import torch
 from tqdm import tqdm
+import os
 
 dataset = CustomDataset(
     file_path="Data/BanglaNewsText.xlsx",
@@ -56,3 +57,11 @@ for epoch in tqdm(range(epochs)):
             avg_loss = total_loss / (batch + 1)
             accuracy = correct_predictions / total_samples * 100.0
             print(f"Epoch: {epoch + 1}/{epochs}, Loss: {avg_loss:.4f}, Accuracy: {accuracy:.2f}%")
+
+
+
+#Saving Trained Model
+folder_path = "Saved Model"
+os.makedirs(folder_path, exist_ok=True)
+saved_model_path = os.path.join(folder_path, 'saved_model.pth')
+torch.save(model.state_dict(), saved_model_path)
