@@ -1,6 +1,6 @@
 # Bangla Text Classification using PyTorch
 
-This repository contains code for a text classification project tailored to analyze Bangla language text.
+This repository contains code for a text classification project to analyze Bangla language text.
 
 ## Contents
 
@@ -10,8 +10,10 @@ This repository contains code for a text classification project tailored to anal
 - `.gitignore`: Specifies files/folders to ignore in version control.
 
 ## Usage
+
 - Customize `dataloader.py` to preprocess your Bangla text dataset.
 - Define and modify the text classification model in `model.py` according to your Bangla text analysis requirements.
 - Use `training.py` to train the text classifier.
+
 
 Feel free to contribute or adapt this code for your Bangla text analysis tasks.
